@@ -1,17 +1,23 @@
 [package]
-name = "polling_traits"
+name = "polling-async-trait"
 version = "0.1.0"
 authors = ["Nathan West <Lucretiel@gmail.com>"]
 edition = "2018"
 
+readme = "README.md"
+license = "MPL-2.0"
+description = "A proc macro that creates async methods based on polling methods for your trait"
+repository = "https://github.com/Lucretiel/polling_traits"
+
 [lib]
 proc-macro = true
+path = "src/lib.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 quote = "1.0"
-syn = {version = "1.0", features = ["full", "derive", "extra-traits"]}
+syn = {version = "1.0", features = ["full", "derive"]}
 proc-macro2 = "1.0.19"
 Inflector = "0.11"
 
