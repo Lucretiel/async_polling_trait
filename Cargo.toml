@@ -1,13 +1,13 @@
 [package]
 name = "polling-async-trait"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nathan West <Lucretiel@gmail.com>"]
 edition = "2018"
 
 readme = "README.md"
 license = "MPL-2.0"
 description = "A proc macro that creates async methods based on polling methods for your trait"
-repository = "https://github.com/Lucretiel/polling_traits"
+repository = "https://github.com/Lucretiel/polling-async-trait"
 
 [lib]
 proc-macro = true
